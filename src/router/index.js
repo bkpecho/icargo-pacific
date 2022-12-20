@@ -6,6 +6,7 @@ import Landingpage from '../views/LandingPage.vue';
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
+
     {
       path: '/',
       name: 'Landingpage',
@@ -39,6 +40,13 @@ const router = createRouter({
       name: 'signin',
       component: () => import('../views/SignIn.vue')
     },
+    //Forgot Password
+    {
+      path: '/forgot-password',
+      name: 'forgot-password',
+      component: () => import('../views/ForgotPassword.vue')
+    },
+
     {
       path: '/customer-signin',
       name: 'customer-signin',

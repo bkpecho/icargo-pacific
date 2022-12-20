@@ -55,9 +55,9 @@
                   </div>
 
                   <div class="pt-1 mb-4 d-flex">
-                    <a href="#!" class="text-body text-right"
+                    <a class="text-body text-right"
                       ><router-link
-                        to="/ForgotPassword"
+                        to="/forgot-password"
                         class="text-decoration-none"
                         >Forgot Password?</router-link
                       ></a
